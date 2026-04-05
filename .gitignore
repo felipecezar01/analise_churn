@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Environment variables / API keys
+.env
+*.env
+secrets.py
+api_keys.py
+
+# Data files (large / sensitive) — o dataset de demo em data/ é commitado intencionalmente
+data/*.parquet
+data/*.xlsx
+# CSV duplicado na raiz (o dataset canônico fica em data/)
+/churn_pred.csv
+
+# Trained models
+*.joblib
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
